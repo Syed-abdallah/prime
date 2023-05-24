@@ -32,7 +32,7 @@
 
 </head>
 
-<body>
+<body style="background-image: linear-gradient(to right, #d8ecff, #dffaff);">
 
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top d-flex align-items-center">

@@ -5,29 +5,29 @@
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./img/banner01.jpg" class="d-block w-100" alt="Image 1">
-                <div class="carousel-caption">
+                <img src="./img/slider01.jpg" class="d-block w-100" alt="Image 1">
+                {{-- <div class="carousel-caption">
                     <h5>Image Caption 1</h5>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, autem magni dolores nobis
                         vitae beatae
                         id accusantium sunt.</p>
 
-                </div>
+                </div> --}}
 
             </div>
             <div class="carousel-item">
-                <img src="./img/banner11.jpg" class="d-block w-100" alt="Image 2">
-                <div class="carousel-caption">
+                <img src="./img/slide01.jpg" class="d-block w-100 " alt="Image 2">
+                {{-- <div class="carousel-caption">
                     <h5>Image Caption 2</h5>
                     <p>Description for Image 2</p>
-                </div>
+                </div> --}}
             </div>
             <div class="carousel-item">
-                <img src="./img/banner13.jpg" class="d-block w-100" alt="Image 3">
-                <div class="carousel-caption">
+                <img src="./img/clutch.jpg" class="d-block w-100 " style="height:680" alt="Image 3">
+                {{-- <div class="carousel-caption">
                     <h5>Image Caption 3</h5>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos officiis totam fugiat.</p>
-                </div>
+                </div> --}}
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -40,8 +40,7 @@
         </button>
     </div>
 
-
-
+   
     <script>
         const carousel = document.querySelector('#carouselExampleFade');
         const carouselInstance = new bootstrap.Carousel(carousel, {
@@ -70,7 +69,7 @@
                 </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
-                <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+                <img src="./img/kick.png" class="img-fluid animated" alt="" style="height:360px">
             </div>
         </div>
     </div>
@@ -134,7 +133,7 @@
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                     <div class="member" data-aos="fade-up" data-aos-delay="100">
                         <div class="member-img">
-                            <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                            <img src="./img/kick.png" class="img-fluid" alt="" style="height:330px">
                             <div class="social">
                                 <a href="">
                                     <h5>Demo</h5>
@@ -145,9 +144,9 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-                    <div class="member" data-aos="fade-up" data-aos-delay="200">
+                    <div class="member" data-aos="fade-up" data-aos-delay="200" >
                         <div class="member-img">
-                            <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                            <img src="./img/leaver.jpg" class="img-fluid" alt="" style="height:330px">
                             <div class="social">
                                 <a href="">
                                     <h5>Demo</h5>
@@ -160,7 +159,7 @@
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                     <div class="member" data-aos="fade-up" data-aos-delay="300">
                         <div class="member-img">
-                            <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                            <img src="./img/break.jpg" class="img-fluid" alt="" style="height:330px">
                             <div class="social">
                                 <a href="">
                                     <h5>Demo</h5>
@@ -264,7 +263,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                     <div class="member" data-aos="fade-up" data-aos-delay="200">
                         <div class="member-img">
-                            <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter"></i></a>
                                 <a href=""><i class="bi bi-facebook"></i></a>
@@ -300,7 +299,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                     <div class="member" data-aos="fade-up" data-aos-delay="400">
                         <div class="member-img">
-                            <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter"></i></a>
                                 <a href=""><i class="bi bi-facebook"></i></a>

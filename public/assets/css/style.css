@@ -1758,12 +1758,24 @@ section {
   /* Set the z-index value to bring the captions above the images */
 }
 
-.carousel-caption h5 {
-  margin-top: 250px;
+/* .carousel-caption h5 {
+  margin-top: 150px;
 
-}
+} */
 
 .carousel-item img {
   z-index: 1;
   /* Set the z-index value to position the images behind the captions */
+}
+
+.w-100 {
+  width: 100%!important;
+  height: 590px;
+}
+
+
+#hero {
+    width: 100%;
+    height: 70vh;
+    margin-top: -70px;
 }
